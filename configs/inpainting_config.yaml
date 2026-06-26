@@ -4,8 +4,8 @@ conditioning:
     scale: 0.5
 
 data:
-  name: ffhq
-  root: ./data/samples/
+  name: imagenet
+  root: ./data/imagenet256/
 
 measurement:
   operator:

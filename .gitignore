@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# Models / checkpoints
+models/
+*.pt
+*.pth
+*.ckpt
+
+# Datasets
+data/imagenet256/
+data/FFHQ/
+data/FFHQ */
+data/samples/
+
+# Outputs / results
+results/
+
+# Large images
+*.png
+
+# Cloned third-party dependency (clone separately per README)
+motionblur/
