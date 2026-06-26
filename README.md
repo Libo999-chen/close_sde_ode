@@ -4,6 +4,9 @@ This repository extends [Diffusion Posterior Sampling (DPS, ICLR 2023)](https://
 to compare several diffusion-based solvers on **noisy image inpainting** over the
 FFHQ-256 and ImageNet-256 datasets.
 
+![comparison](./comparison_top3.png)
+*Qualitative comparison — ground truth, masked input, DPS, DiffPIR, and our Joint Plug-in.*
+
 Three samplers are implemented and benchmarked:
 
 | Method | Script | Idea |

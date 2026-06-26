@@ -18,3 +18,12 @@ six==1.16.0
 tqdm==4.64.1
 typing-extensions==4.3.0
 urllib3==1.26.12
+
+# Evaluation metrics (LPIPS / FID / JFID / PSNR)
+piq==0.8.0
+lpips==0.1.4
+# Dataset download helpers (download_ffhq256.py / download_imagenet256.py)
+datasets==2.14.0
+# NOTE: install torch / torchvision separately with the matching CUDA build:
+#   pip install torch==1.11.0+cu113 torchvision==0.12.0+cu113 \
+#       --extra-index-url https://download.pytorch.org/whl/cu113
